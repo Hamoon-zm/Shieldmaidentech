@@ -1,0 +1,17 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-image: radial-gradient(ellipse at bottom , #442846, #c2b24b);
+    height: 20rem;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.logo img{
+    max-width: 26rem;
+    width: 100%;
+}
+address{
+    text-align: center;
+}
+

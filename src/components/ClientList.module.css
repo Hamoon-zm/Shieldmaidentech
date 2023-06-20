@@ -1,0 +1,24 @@
+.box {
+  background: radial-gradient(ellipse at top left, #3b536d, #513334);
+  max-width: 120rem;
+  margin: 15rem auto;
+  padding: 8rem;
+  border-radius: 12rem 0 10rem 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  animation: popup 0.5s ease forwards;
+}
+.box img {
+  margin: 0 2rem;
+  border-radius: 6px;
+}
+
+@keyframes popup {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
